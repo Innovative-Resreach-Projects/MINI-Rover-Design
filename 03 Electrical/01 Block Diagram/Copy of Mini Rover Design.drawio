@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="JyUOuHXiSFr9RC4MHVJT">
+    <mxGraphModel dx="1489" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-24" value="Robotic Arm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="379.90999999999997" y="610" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-21" value="Drive System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="379.90999999999997" y="430" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-1" target="RV9R5c63OA0wlA1ZHNCd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-1" target="RV9R5c63OA0wlA1ZHNCd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-1" target="RV9R5c63OA0wlA1ZHNCd-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.90999999999997" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="209.91" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-1" target="RV9R5c63OA0wlA1ZHNCd-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-12" value="Motor driver signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RV9R5c63OA0wlA1ZHNCd-11">
+          <mxGeometry x="-0.21" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-1" target="RV9R5c63OA0wlA1ZHNCd-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="309.90999999999997" y="355" />
+              <mxPoint x="309.90999999999997" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-26" value="Motor Driver Signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RV9R5c63OA0wlA1ZHNCd-25">
+          <mxGeometry x="-0.3302" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-1" value="ESP32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404.90999999999997" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-2" value="Telemetry Module&lt;div&gt;(using LoRA or a different type of communication protocol/IC)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.90999999999997" y="150" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-4" value="Sensors: LiDAR, IMU, Encoder(drive system),Encoder (Angular for Robotic Arm) Accelerometer, (maybe a torque transducer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="295" width="195.09" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-6" target="RV9R5c63OA0wlA1ZHNCd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-17" value="include any type of ESD Protection voltage Limiters" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RV9R5c63OA0wlA1ZHNCd-9">
+          <mxGeometry x="-0.388" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-6" target="RV9R5c63OA0wlA1ZHNCd-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="49.91" y="90" />
+              <mxPoint x="49.91" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-6" target="RV9R5c63OA0wlA1ZHNCd-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.91" y="1000.5217179008152" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="49.91" y="90" />
+              <mxPoint x="49.91" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-6" value="Battery: TBD" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="149.91" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-8" value="Buck Comverter: used for the ESP32, and the sensors" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="149.91" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-22" target="RV9R5c63OA0wlA1ZHNCd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-10" target="RV9R5c63OA0wlA1ZHNCd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-10" value="Motor Driver" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417.90999999999997" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-15" value="6x Motors or 4x Motors" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="589.91" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RV9R5c63OA0wlA1ZHNCd-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309.90999999999997" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-18" value="Keep in mind the powerdraw will be insane for the motors depending on the weight of the Rover, which is due to the required thrust to drive the rover" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449.90999999999997" y="30" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-22" value="Motor Driver" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417.90999999999997" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV9R5c63OA0wlA1ZHNCd-27" value="5 motors" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="589.91" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
