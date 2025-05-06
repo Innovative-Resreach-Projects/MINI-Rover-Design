@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "388156f9-41d1-4297-adbb-e5ec65b95cc1")
+	(paper "A4")
+	(lib_symbols)
+	(text "using a cots motor driver, use a way to integrate the motor drivers to the PCB\n"
+		(exclude_from_sim no)
+		(at 65.024 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40775730-1b26-41e0-8896-624e3a310839")
+	)
+)

@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5e24e115-5854-4b65-9787-0f18fc1ffba8")
+	(paper "A4")
+	(lib_symbols)
+	(text "add two mcu for each motor drive\n"
+		(exclude_from_sim no)
+		(at 39.878 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5c79335-d2b5-4de0-9e06-ec3deea8be76")
+	)
+)

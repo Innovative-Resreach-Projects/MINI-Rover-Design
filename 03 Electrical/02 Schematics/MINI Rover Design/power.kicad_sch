@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ed80955-fdbd-4eef-a836-e836bc364431")
+	(paper "A4")
+	(lib_symbols)
+	(text "using an 8V or 12V battery\n\n-will need a 3V3 converter for the MCU and the sensors, a 5v rail for the RPI \n can maybe use the same 3v3 rail for the RPI "
+		(exclude_from_sim no)
+		(at 54.356 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f5a55ec-395f-48a4-b14b-62666704d727")
+	)
+)

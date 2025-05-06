@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad2f8d0d-870c-4364-877d-33a1ffcc44da")
+	(paper "A4")
+	(lib_symbols)
+	(text "sensors: include the use of a IMU, Accelerometer, \nEcnoder (one for each actuator system, \ndistance sensor, (LiDAR or laser based distance module)\n"
+		(exclude_from_sim no)
+		(at 51.562 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c2ee67f-e6b6-489c-bdde-28b4874c65f1")
+	)
+)

@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "944dca69-5a79-4147-96ae-38c4f2d8f09a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 129.54 132.08)
+		(size 66.04 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a8e4380-c749-4dfd-8b8b-6c5d8dcd6e65")
+		(property "Sheetname" "Main Computer"
+			(at 129.54 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "raspi.kicad_sch"
+			(at 129.54 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 35.56)
+		(size 49.53 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ea5965e-cbeb-477e-abf2-cd44a9a5c1b2")
+		(property "Sheetname" "MCU"
+			(at 182.88 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 182.88 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 80.01)
+		(size 67.31 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c5dc3e8-ebe4-4374-9c0c-ff339fc458de")
+		(property "Sheetname" "Actuator Drive"
+			(at 120.65 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drive.kicad_sch"
+			(at 120.65 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 33.02)
+		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4db0bc02-a9e6-4d10-a6d5-f7a00a5cbc4b")
+		(property "Sheetname" "Sensors"
+			(at 105.41 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 105.41 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 85.09)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b10f1c8-0578-4d42-8b8a-144899733288")
+		(property "Sheetname" "Comm System"
+			(at 38.1 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comms.kicad_sch"
+			(at 38.1 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 34.29)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "720c0735-a378-4a5e-85e8-10738b0e0955")
+		(property "Sheetname" "Power System"
+			(at 38.1 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 38.1 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 132.08)
+		(size 58.42 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2e923af-ddc3-4740-80d1-72cfe2ae18ed")
+		(property "Sheetname" "Actuator arm"
+			(at 46.99 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arm.kicad_sch"
+			(at 46.99 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINI Rover Design"
+				(path "/944dca69-5a79-4147-96ae-38c4f2d8f09a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

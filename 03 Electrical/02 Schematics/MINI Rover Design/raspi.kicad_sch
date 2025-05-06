@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "de8a5b94-1f76-44d6-8165-68cd177f9213")
+	(paper "A4")
+	(lib_symbols)
+	(text "add a type of easy computer to add onto the PCB will need to connect both the esp32 to the computer and integrate the communication to the rpi \n\n"
+		(exclude_from_sim no)
+		(at 97.028 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b0226fe-3683-4184-8465-23d4f26395e9")
+	)
+)

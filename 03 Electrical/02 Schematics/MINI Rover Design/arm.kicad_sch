@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fff985f9-d3d8-4a42-a8fb-1f1f7a205853")
+	(paper "A4")
+	(lib_symbols)
+	(text "using cots motor driver will need to use a method to connect the drivers to the PCB\n"
+		(exclude_from_sim no)
+		(at 68.58 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5998dab3-66fd-4190-bb28-e0eec66392d4")
+	)
+)
